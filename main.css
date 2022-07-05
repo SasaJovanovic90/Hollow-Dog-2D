@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    
+    
+}
+
+h1{
+    color: white;
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 3rem;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    
+    
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px white solid;
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    top:36%;
+    left: 12%;
+    padding: 1rem;
+    transform:  translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+
+
+}
+
+span{
+   
+    color: white;
+
+}
+
+#canvas1 {
+    border: 5px solid white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#player, #layer1, #layer2, #layer3, #layer4, #layer5, #enemyFly, #enemyGround, #live {
+    
+    display: none;
+}
+
